@@ -1,0 +1,21 @@
+---
+// Your other frontmatter and component imports
+import '../styles/global.css';
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Astro Site</title>
+    <link rel="stylesheet" href="/src/styles/global.css">
+  </head>
+  <body>
+    <!-- Your content -->
+    <main>
+      <slot />
+    </main>
+    <!-- Include Bootstrap JS and dependencies (Popper.js) -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
